@@ -1,0 +1,20 @@
+.list-item{
+    margin:20px;
+    padding: 20px;
+    color: #000000;
+    border: 1px solid #e74a4a;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width:768px) {
+    .list-item{
+    margin:5px;
+    padding: 8px;
+    color: #000000;
+    border: 1px solid #e74a4a;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    }
+}
